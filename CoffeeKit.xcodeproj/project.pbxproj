@@ -10,7 +10,6 @@
 		82C7CED21D638CBF00AE48C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C7CED11D638CBF00AE48C8 /* AppDelegate.swift */; };
 		82C7CED51D638CBF00AE48C8 /* CoffeeKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82C7CED31D638CBF00AE48C8 /* CoffeeKit.xcdatamodeld */; };
 		82C7CED71D638CBF00AE48C8 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C7CED61D638CBF00AE48C8 /* MasterViewController.swift */; };
-		82C7CED91D638CBF00AE48C8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C7CED81D638CBF00AE48C8 /* DetailViewController.swift */; };
 		82C7CEDC1D638CBF00AE48C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C7CEDA1D638CBF00AE48C8 /* Main.storyboard */; };
 		82C7CEDE1D638CBF00AE48C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82C7CEDD1D638CBF00AE48C8 /* Assets.xcassets */; };
 		82C7CEE11D638CBF00AE48C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C7CEDF1D638CBF00AE48C8 /* LaunchScreen.storyboard */; };
@@ -40,7 +39,6 @@
 		82C7CED11D638CBF00AE48C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82C7CED41D638CBF00AE48C8 /* CoffeeKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoffeeKit.xcdatamodel; sourceTree = "<group>"; };
 		82C7CED61D638CBF00AE48C8 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		82C7CED81D638CBF00AE48C8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		82C7CEDB1D638CBF00AE48C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82C7CEDD1D638CBF00AE48C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82C7CEE01D638CBF00AE48C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 			children = (
 				82C7CED11D638CBF00AE48C8 /* AppDelegate.swift */,
 				82C7CED61D638CBF00AE48C8 /* MasterViewController.swift */,
-				82C7CED81D638CBF00AE48C8 /* DetailViewController.swift */,
 				82C7CEDA1D638CBF00AE48C8 /* Main.storyboard */,
 				82C7CEDD1D638CBF00AE48C8 /* Assets.xcassets */,
 				82C7CEDF1D638CBF00AE48C8 /* LaunchScreen.storyboard */,
@@ -265,7 +262,6 @@
 				82C7CED51D638CBF00AE48C8 /* CoffeeKit.xcdatamodeld in Sources */,
 				82C7CED21D638CBF00AE48C8 /* AppDelegate.swift in Sources */,
 				82C7CED71D638CBF00AE48C8 /* MasterViewController.swift in Sources */,
-				82C7CED91D638CBF00AE48C8 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +486,7 @@
 				82C7CEFD1D638CC000AE48C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82C7CEFE1D638CC000AE48C8 /* Build configuration list for PBXNativeTarget "CoffeeKitTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +495,7 @@
 				82C7CF001D638CC000AE48C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82C7CF011D638CC000AE48C8 /* Build configuration list for PBXNativeTarget "CoffeeKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +504,7 @@
 				82C7CF031D638CC000AE48C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
